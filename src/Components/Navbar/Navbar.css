@@ -1,0 +1,16 @@
+.nav-list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 50px;
+    padding-top: 50px;
+    color: rgb(218, 214, 214);
+    font-weight: 400;
+    font-size: 1.2rem;
+    width: max-content;
+}
+
+.list:hover{
+    color: red;
+}

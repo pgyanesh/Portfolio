@@ -1,0 +1,38 @@
+.first-page{
+    background-color: #23252a;
+    height:100vh;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    color: #3c3f44;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    font-size: 4.5rem;
+}
+.first-para{
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    font-size: 2rem;
+}
+
+.firstPara-span{
+    color: rgb(199, 19, 19);
+}
+.second-para{
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    font-size: 2rem;
+}
+.secondPara-span{
+    color: rgb(153, 21, 21);
+}

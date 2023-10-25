@@ -4,7 +4,7 @@
     flex-direction: column;
     gap: 10px;
     margin-left: 50px;
-    padding-top: 50px;
+    
     color: rgb(218, 214, 214);
     font-weight: 400;
     font-size: 1.2rem;
@@ -13,4 +13,10 @@
 
 .list:hover{
     color: red;
+}
+.navbar-container{
+    background-color:none ;
+    position: fixed;
+    padding-top: 70px;
+    
 }

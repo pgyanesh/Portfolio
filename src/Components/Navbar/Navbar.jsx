@@ -2,7 +2,7 @@ import React from 'react'
 import './Navbar.css'
 const Navbar = () => {
   return (
-    <div>
+    <div className='navbar-container'>
       <ul className='nav-list'>
         <li className='list'>@</li>
         <li className='list'>#about</li>

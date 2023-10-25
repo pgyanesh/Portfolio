@@ -1,24 +1,21 @@
 .thirdPage-container{
+    min-height: 100vh;
+    max-width: 300vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #23252a;
-    height: 100vh;
-    color: aliceblue;
 }
 
-.thirdPage-head{
+.thirdPage-heading{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 150px;
+    font-size: 3rem;
+    margin-top: 60px;
+    color: antiquewhite;
+    
 }
-.thirdPage-icons{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-   align-self: center;
-}
-.icons{
-    height: 90px;
-    width: 90px;
-    margin: auto;
-   
+.skills-li{
+    list-style: none;
 }

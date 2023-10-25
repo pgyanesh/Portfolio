@@ -10,20 +10,25 @@ import {FaJsSquare} from 'react-icons/fa'
  import {SiMysql} from 'react-icons/si'
 const ThirdPage = () => {
   return (
+    <>
     <div className='thirdPage-container'>
-      <h1 className='thirdPage-head'>Skills</h1>
-      <div className="thirdPage-icon">
-        <FaHtml5  className='icons'/>
-        <FaCss3Alt className='icons'/>
-        <FaJsSquare className='icons'/>
-        <FaReact className='icons'/>
-        <SiRedux className='icons'/>
-        <SiMongodb className='icons'/>
-        <FaNode className='icons'/>
-        <SiMysql className='icons'/>
-      </div>
-      
+        <div className='thirdPage-heading'>
+            <h1>Skills</h1>
+        </div>
+        <div className="thirdPage-skills">
+          <ul>
+            <li className='skills-li'><FaHtml5/></li>
+            <li className='skills-li'><FaCss3Alt/></li>
+            <li className='skills-li'><FaJsSquare/></li>
+            <li className='skills-li'><FaReact/></li>
+            <li className='skills-li'><FaNode/></li>
+            <li className='skills-li'><SiMongodb/></li>
+            <li className='skills-li'><SiMysql/></li>
+            <li className='skills-li'><SiRedux/></li>
+          </ul>
+        </div>
     </div>
+    </>
   )
 }
 

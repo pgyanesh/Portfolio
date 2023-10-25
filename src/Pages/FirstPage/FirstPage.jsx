@@ -1,8 +1,9 @@
 import React from 'react'
 import './First.css'
 import Navbar from '../../Components/Navbar/Navbar'
-
-
+import {FaGithub} from 'react-icons/fa';
+import {FaLinkedin} from 'react-icons/fa';
+import {FaTwitterSquare} from 'react-icons/fa';
 
 const FirstPage = () => {
   return (
@@ -18,8 +19,14 @@ const FirstPage = () => {
         <h3><span className='secondPara-span'>{"<"}</span>Web Developer <span className='secondPara-span'>{"/>"}</span></h3>
       </div>
       <div className="social-icons">
-        <a href='https://github.com/pgyanesh'>
-       Github
+        <a  href='https://github.com/pgyanesh' target='_blank'  rel="noreferrer"  >
+       <FaGithub className='icon'/>
+        </a>
+        <a href='https://google.com' target='_blank'  rel="noreferrer" >
+          <FaLinkedin className='icon'/>
+        </a>
+        <a href='https://google.com' target='_blank'  rel="noreferrer" >
+          <FaTwitterSquare className='icon'/>
         </a>
       </div>
 

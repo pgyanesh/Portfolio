@@ -1,0 +1,24 @@
+.thirdPage-container{
+    background-color: #23252a;
+    height: 100vh;
+    color: aliceblue;
+}
+
+.thirdPage-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+}
+.thirdPage-icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-self: center;
+}
+.icons{
+    height: 90px;
+    width: 90px;
+    margin: auto;
+   
+}

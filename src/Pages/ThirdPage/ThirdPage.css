@@ -1,21 +1,49 @@
 .thirdPage-container{
-    min-height: 100vh;
-    max-width: 300vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     background-color: #23252a;
+    min-height: 120vh;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+   
 }
 
 .thirdPage-heading{
     display: flex;
+    color: antiquewhite;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 40px;
+    flex-direction: column;
+}
+
+.thirdPage-heading h1{
+    font-size: 200px;
+}
+.thirdPage-skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 30px;
+  text-align: center;
+}
+
+.icons{
+    height: 100px;
+    width: 130px;
+    text-align: center;
+   
+}
+
+.skills{
+    display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 3rem;
-    margin-top: 60px;
-    color: antiquewhite;
-    
+    text-align: center;
 }
-.skills-li{
-    list-style: none;
+
+.skill-span{
+    font-size: 40px;
+    margin-left: 10px;
+    text-align: center;
+    color: rgb(158, 160, 161);
+    font-weight: 400;
 }
